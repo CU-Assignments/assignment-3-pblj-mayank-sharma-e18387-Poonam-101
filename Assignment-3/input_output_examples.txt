@@ -1,0 +1,63 @@
+Input and Output 
+//22bcs14608-poonam
+1. Square Root Calculation (Easy Level)
+
+Input:
+Enter a number: -16
+
+Output:
+Error: Cannot calculate the square root of a negative number.
+
+Input:
+Enter a number: 25
+
+Output:
+The square root of 25.00 is 5.00
+
+Input:
+Enter a number: abc
+
+Output:
+Error: Please enter a valid numeric value.
+
+2. ATM Withdrawal System (Medium Level)
+
+Input:
+Enter PIN: 1234
+Enter withdrawal amount: 5000
+
+Output:
+Error: Insufficient balance. Current Balance: 3000
+
+Input:
+Enter PIN: 1234
+Enter withdrawal amount: 1000
+
+Output:
+Withdrawal successful! Remaining balance: 2000
+
+Input:
+Enter PIN: 1111
+
+Output:
+Error: Invalid PIN. Current Balance: 3000
+
+3. University Enrollment System (Hard Level)
+
+Input:
+Enroll in Course: Advanced Java
+
+Output:
+Error: PrerequisiteNotMetException - Complete Core Java before enrolling in Advanced Java.
+
+Input:
+Enroll in Course: Advanced Java (after completing Core Java)
+
+Output:
+Enrolled in Advanced Java successfully!
+
+Input:
+Enroll in Course: Advanced Java (when the course is full)
+
+Output:
+Error: CourseFullException - The course Advanced Java is full.
